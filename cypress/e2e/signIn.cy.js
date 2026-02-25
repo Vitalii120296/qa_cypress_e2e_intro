@@ -12,6 +12,6 @@ describe('Sign In page', () => {
 
     cy.contains('.btn', 'Sign in').click();
 
-    cy.contains('a', 'conduit').should('exist');
+    cy.contains('a', 'vitalii120296').should('exist');
   });
 });
